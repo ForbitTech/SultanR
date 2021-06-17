@@ -1,0 +1,251 @@
+{
+  "project_info": {
+    "project_number": "997737582322",
+    "firebase_url": "https://sino-72f9d.firebaseio.com",
+    "project_id": "sino-72f9d",
+    "storage_bucket": "sino-72f9d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:997737582322:android:42655b73ad27d00a0c8a6b",
+        "android_client_info": {
+          "package_name": "com.forbit.sultanr"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "997737582322-m6o6lcceko7v8o34rm79n6kcarcbqq99.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBsCxk9-ikcb4hAXnge0q0MS8MmDv0ZrDA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "997737582322-m6o6lcceko7v8o34rm79n6kcarcbqq99.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "997737582322-s5d25q8di2gbiejj9aoj7p85o3poefk6.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "forbit.Sultan-Tracker"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:997737582322:android:adefd1bb95102110",
+        "android_client_info": {
+          "package_name": "com.forbitbd.sbike"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "997737582322-i5l7mv98674u66j1cqcaou2c7ut7d3o5.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.forbitbd.sbike",
+            "certificate_hash": "80945178d9061e8e8208dd7ace01ed9e5225e7a4"
+          }
+        },
+        {
+          "client_id": "997737582322-hk9hqmmecq7tvmkgssc1hruqd3nkbijd.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.forbitbd.sbike",
+            "certificate_hash": "05e36862f9ee106c02c650c49709180b2617495d"
+          }
+        },
+        {
+          "client_id": "997737582322-nkshkqq5vmr0h486o5epcsc0a42geki8.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.forbitbd.sbike",
+            "certificate_hash": "0515b46e8bed13fc24deb99c5c4a896dcd6454f1"
+          }
+        },
+        {
+          "client_id": "997737582322-8t8lvad00fsrtkcf0idhl9tjuse2kv5o.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.forbitbd.sbike",
+            "certificate_hash": "02bf5a5787d8654ced390abcc7d49444481e1cd3"
+          }
+        },
+        {
+          "client_id": "997737582322-0vltcahnisosevcnqc17edg03nbj44s3.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.forbitbd.sbike",
+            "certificate_hash": "991ba318b04097e9bcc1ad0d5dea4fbe6a8d3894"
+          }
+        },
+        {
+          "client_id": "997737582322-m6o6lcceko7v8o34rm79n6kcarcbqq99.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBsCxk9-ikcb4hAXnge0q0MS8MmDv0ZrDA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "997737582322-m6o6lcceko7v8o34rm79n6kcarcbqq99.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "997737582322-s5d25q8di2gbiejj9aoj7p85o3poefk6.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "forbit.Sultan-Tracker"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:997737582322:android:b23c294e7c4547dd0c8a6b",
+        "android_client_info": {
+          "package_name": "com.forbitbd.scar"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "997737582322-5ohaq2f5j0e01sovihpmeetb8v29qn0f.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.forbitbd.scar",
+            "certificate_hash": "bdd6e30de4b3e070a34e81faa1ae23ac1077882d"
+          }
+        },
+        {
+          "client_id": "997737582322-664cvhp8i9uo8tq3vfiob8ngu2ts8ugf.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.forbitbd.scar",
+            "certificate_hash": "5b4c74bfe61dc7aca79a46fb97b88566c754f89a"
+          }
+        },
+        {
+          "client_id": "997737582322-usq2rfqt4eheioe1k5o7v2t2n36u9t9a.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.forbitbd.scar",
+            "certificate_hash": "80945178d9061e8e8208dd7ace01ed9e5225e7a4"
+          }
+        },
+        {
+          "client_id": "997737582322-lo2n5lk8vp9e1uf1a0djlsd09rqdsopm.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.forbitbd.scar",
+            "certificate_hash": "0515b46e8bed13fc24deb99c5c4a896dcd6454f1"
+          }
+        },
+        {
+          "client_id": "997737582322-f711bchsfuht7mk0uv0mgs0mitjdqe95.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.forbitbd.scar",
+            "certificate_hash": "02bf5a5787d8654ced390abcc7d49444481e1cd3"
+          }
+        },
+        {
+          "client_id": "997737582322-mb5na6lo6tqjhfmg4l054m0ms3cigp51.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.forbitbd.scar",
+            "certificate_hash": "991ba318b04097e9bcc1ad0d5dea4fbe6a8d3894"
+          }
+        },
+        {
+          "client_id": "997737582322-m6o6lcceko7v8o34rm79n6kcarcbqq99.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBsCxk9-ikcb4hAXnge0q0MS8MmDv0ZrDA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "997737582322-m6o6lcceko7v8o34rm79n6kcarcbqq99.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "997737582322-s5d25q8di2gbiejj9aoj7p85o3poefk6.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "forbit.Sultan-Tracker"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:997737582322:android:e5dca5b2b349f4600c8a6b",
+        "android_client_info": {
+          "package_name": "com.forbitbd.sinoadmin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "997737582322-sl4ipjpdpdeap7ob5bm4qi3gn1ffl63v.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.forbitbd.sinoadmin",
+            "certificate_hash": "02bf5a5787d8654ced390abcc7d49444481e1cd3"
+          }
+        },
+        {
+          "client_id": "997737582322-m6o6lcceko7v8o34rm79n6kcarcbqq99.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBsCxk9-ikcb4hAXnge0q0MS8MmDv0ZrDA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "997737582322-m6o6lcceko7v8o34rm79n6kcarcbqq99.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "997737582322-s5d25q8di2gbiejj9aoj7p85o3poefk6.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "forbit.Sultan-Tracker"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

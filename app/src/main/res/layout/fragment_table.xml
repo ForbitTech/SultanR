@@ -1,0 +1,47 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/medium_padding"
+    android:orientation="vertical"
+    android:background="@android:color/white">
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/table_header_back">
+
+        <TextView
+            android:padding="@dimen/medium_padding"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="@string/hour"
+            android:textStyle="bold"
+            android:layout_weight="1"/>
+
+        <TextView
+            android:padding="@dimen/medium_padding"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="@string/time"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:layout_weight="1"/>
+
+        <TextView
+            android:padding="@dimen/medium_padding"
+            android:layout_width="0dp"
+            android:gravity="center"
+            android:layout_height="wrap_content"
+            android:text="@string/distance"
+            android:textStyle="bold"
+            android:layout_weight="1"/>
+
+    </TableRow>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/rv_travel_distance"/>
+
+</LinearLayout>

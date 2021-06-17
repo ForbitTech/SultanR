@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#FF5722</color>
+    <color name="colorPrimaryDark">#EA683F</color>
+    <color name="colorAccent">#FF5722</color>
+
+    <color name="light_grey">#E0E0E0</color>
+    <color name="dark_grey">#999999</color>
+    <color name="light_back">#93d7ff</color>
+
+    <color name="red">#FF0000</color>
+    <color name="green">#00FF00</color>
+    <color name="blue">#0000FF</color>
+
+    <color name="metal_color">#FFFFFF</color>
+    <color name="Black">#000000</color>
+
+    <color name="color_action_icons_tint">#FFFFFF</color>
+</resources>

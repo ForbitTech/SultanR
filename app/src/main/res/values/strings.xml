@@ -1,0 +1,88 @@
+<resources>
+    <string name="app_name">SultanR</string>
+    <string name="vehicle_code_number">Vehicle Code Number</string>
+    <string name="password">Password</string>
+    <string name="logintitle"><![CDATA[To Track your vehicle, please login with your vehicles code number & password]]></string>
+    <string name="Welcome_title">Welcome to Sultan Tracker</string>
+    <string name="login">Login</string>
+    <string name="logo">logo</string>
+    <string name="google_map_key" translatable="false">AIzaSyBp-eLGI1K1Bl7iBbbYZTE16hO5dvCZ_Es</string>
+    <string name="driver">Driver Information:</string>
+
+    <string name="prev"><![CDATA[<]]></string>
+    <string name="next"><![CDATA[>]]></string>
+
+    <string name="acc">Status</string>
+    <string name="chart_view">Chart</string>
+    <string name="table_view">Table</string>
+    <string name="mileage">Milage</string>
+    <string name="fuel">Fuel</string>
+    <string name="start_time">Start Time</string>
+    <string name="stop_time">Stop Time</string>
+    <string name="idle_time">Idle Time</string>
+    <string name="running_time">Running Time</string>
+    <string name="congestion_time">Congestion Time</string>
+    <string name="_01">01</string>
+    <string name="_5555">5555</string>
+    <string name="fuel_consumed">Fuel Consumed</string>
+    <string name="_1st_hour">1st Hour</string>
+    <string name="_12_00_00">12:00:00</string>
+    <string name="location_info">Location Info</string>
+    <string name="address">Address:</string>
+    <string name="speed">Speed:</string>
+    <string name="status">Status:</string>
+    <string name="hour">Hour</string>
+    <string name="time">Time</string>
+    <string name="distance">Distance</string>
+    <string name="statu">STATUS</string>
+    <string name="times">TIME</string>
+    <string name="durations">DURATION</string>
+    <string name="distances">DISTANCE</string>
+    <string name="pic">pic</string>
+    <string name="mainlogo">mainlogo</string>
+
+
+    <string-array name="hour_array">
+        <item>12:01 AM to 01:00 AM</item>
+        <item>01:01 AM to 02:00 AM</item>
+        <item>02:01 AM to 03:00 AM</item>
+        <item>03:01 AM to 04:00 AM</item>
+        <item>04:01 AM to 05:00 AM</item>
+        <item>05:01 AM to 06:00 AM</item>
+        <item>06:01 AM to 07:00 AM</item>
+        <item>07:01 AM to 08:00 AM</item>
+        <item>08:01 AM to 09:00 AM</item>
+        <item>09:01 AM to 10:00 AM</item>
+        <item>10:01 AM to 11:00 AM</item>
+        <item>11:01 AM to 12:00 PM</item>
+
+        <item>12:01 PM to 01:00 PM</item>
+        <item>01:01 PM to 02:00 PM</item>
+        <item>02:01 PM to 03:00 PM</item>
+        <item>03:01 PM to 04:00 PM</item>
+        <item>04:01 PM to 05:00 PM</item>
+        <item>05:01 PM to 06:00 PM</item>
+        <item>06:01 PM to 07:00 PM</item>
+        <item>07:01 PM to 08:00 PM</item>
+        <item>08:01 PM to 09:00 PM</item>
+        <item>09:01 PM to 10:00 PM</item>
+        <item>10:01 PM to 11:00 PM</item>
+        <item>11:01 PM to 12:00 AM</item>
+    </string-array>
+
+
+    <string-array name="month_array">
+        <item>Jan</item>
+        <item>Feb</item>
+        <item>Mar</item>
+        <item>Apr</item>
+        <item>May</item>
+        <item>Jun</item>
+        <item>Jul</item>
+        <item>Aug</item>
+        <item>Sep</item>
+        <item>Oct</item>
+        <item>Nov</item>
+        <item>Dec</item>
+    </string-array>
+</resources>

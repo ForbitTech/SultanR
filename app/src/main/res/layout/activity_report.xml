@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#eeeeee">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?android:attr/actionBarSize"
+        app:titleTextColor="@android:color/white"
+        android:background="@color/colorPrimary">
+    </androidx.appcompat.widget.Toolbar>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/toolbar">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/top"
+            android:padding="@dimen/medium_padding">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:cardElevation="@dimen/small_padding"
+                    app:cardCornerRadius="@dimen/small_padding"
+                    android:id="@+id/anim"
+                    android:clickable="true"
+                    android:focusable="true">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:layout_width="75dp"
+                            android:layout_height="50dp"
+                            app:tint="@color/colorPrimary"
+                            android:src="@drawable/distance"/>
+
+                        <TextView
+                            android:layout_width="75dp"
+                            android:layout_height="25dp"
+                            android:text="49.44 km"
+                            android:id="@+id/tvDistance"
+                            android:textSize="@dimen/report_text_size"
+                            android:gravity="center"
+                            android:textStyle="bold"/>
+
+
+                    </LinearLayout>
+
+
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:cardElevation="@dimen/small_padding"
+                    app:cardCornerRadius="@dimen/small_padding"
+                    android:layout_centerHorizontal="true"
+                    android:clickable="true"
+                    android:focusable="true">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:layout_width="75dp"
+                            android:layout_height="50dp"
+                            app:tint="@color/colorPrimary"
+                            android:src="@drawable/time"/>
+
+                        <TextView
+                            android:layout_width="75dp"
+                            android:layout_height="25dp"
+                            android:text="49.44 km"
+                            android:id="@+id/tv_running_time"
+                            android:textSize="@dimen/report_text_size"
+                            android:gravity="center"
+                            android:textStyle="bold"/>
+
+
+                    </LinearLayout>
+
+
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:cardElevation="@dimen/small_padding"
+                    app:cardCornerRadius="@dimen/small_padding"
+                    android:layout_alignParentEnd="true"
+                    android:id="@+id/fuel"
+                    android:clickable="true"
+                    android:focusable="true">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:layout_width="75dp"
+                            android:layout_height="50dp"
+                            app:tint="@color/colorPrimary"
+                            android:src="@drawable/fuel"/>
+
+                        <TextView
+                            android:layout_width="75dp"
+                            android:layout_height="25dp"
+                            android:text="49.44 km"
+                            android:gravity="center"
+                            android:textSize="@dimen/report_text_size"
+                            android:id="@+id/tv_fuel_consumption"
+                            android:textStyle="bold"/>
+
+
+                    </LinearLayout>
+
+
+
+                </androidx.cardview.widget.CardView>
+
+
+
+            </RelativeLayout>
+
+
+        </RelativeLayout>
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/small_padding"
+            android:layout_below="@id/top"
+            android:id="@+id/state_container">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/text_ripple"
+                android:clickable="true"
+                android:text="@string/prev"
+                android:textSize="24sp"
+                android:textColor="@android:color/white"
+                android:textStyle="bold"
+                android:id="@+id/prev"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/medium_padding"
+                android:layout_toEndOf="@+id/prev"
+                android:layout_toStartOf="@+id/next"
+                android:gravity="center"
+                android:layout_centerVertical="true"
+                android:text="status"
+                android:id="@+id/status"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/text_ripple"
+                android:text="@string/next"
+                android:textSize="24sp"
+                android:clickable="true"
+                android:textColor="@android:color/white"
+                android:textStyle="bold"
+                android:layout_alignParentEnd="true"
+                android:id="@+id/next"/>
+
+        </RelativeLayout>
+
+        <androidx.viewpager.widget.ViewPager
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/state_container"
+            android:id="@+id/view_pager">
+
+        </androidx.viewpager.widget.ViewPager>
+
+    </RelativeLayout>
+
+
+
+
+
+</RelativeLayout>

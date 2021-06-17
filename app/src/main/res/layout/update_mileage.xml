@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/large_padding">
+
+
+    <EditText
+        android:id="@+id/mileage"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:hint="@string/mileage"
+        android:inputType="numberDecimal"
+        android:background="@drawable/edit_text_background_deselect"/>
+
+
+</RelativeLayout>
